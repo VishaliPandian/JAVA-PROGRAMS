@@ -1,0 +1,1 @@
+package doubts;	public class FactorialMain1 {		  static int fact(int n) { //n=5, n=4, n=3, n=2, n=1			 int f=1;				if(n==1 || n==0) {					return 1;				}				else {									 return (n*(fact(n-1))); //5*4*3*2*1				}		  }			  				public static void main(String[] args) {						      int ans=fact(5);		      System.out.println("factorial="+ans);			}		}

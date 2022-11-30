@@ -1,0 +1,28 @@
+>>This can be used to achieve abstraction and multiple inherutance.
+>>It cannot have a method body
+>>Default and static methods in an interface
+
+>>Syntax:-
+interface <interface_name>{  
+      
+    // declare constant fields  
+    // declare methods that abstract   
+    // by default.  
+}  
+
+>>lets understand through Real time example:-
+
+Suppose you have some rupees in your hands. You can buy from this money something from that shop where billing is done in rupees.
+Suppose you go to such a shop for buying where only dollars are accepted, you cannot use your rupees there. This money is like a class. 
+A class can fulfill only a particular requirement. It is not useful to handle different situations.
+
+Now suppose you have a credit card. In a shop, you can easily pay in rupees by using your credit card. If you go to another shop where dollars are accepted, you can also pay in dollars.
+The same credit card can be used to pay in pounds also. But how is this credit card paying in different currencies? Let’s understand it.
+
+Basically, a credit card is like an interface that performs several tasks. It is a card that contains identification information such as your name, bank name, and perhaps some numbers.
+
+It does not hold any money physically. But here question is that how are shop keepers able to draw money from credit card?
+
+Behind credit card, have our bank account details from where the money is transferred to shop keepers after authentication.
+
+This bank account can be considered as an implementation class that actually performs different tasks. See the below figure to understand the concept.
